@@ -1,0 +1,10 @@
+wwwroot\home.css
+wwwroot\home.html
+wwwroot\home.js
+wwwroot\Update.html
+wwwroot\Update.js
+C:\Users\User\Desktop\API-HW\API_hm_3\API_hm_3\wwwroot\home.css
+C:\Users\User\Desktop\API-HW\API_hm_3\API_hm_3\wwwroot\home.html
+C:\Users\User\Desktop\API-HW\API_hm_3\API_hm_3\wwwroot\home.js
+C:\Users\User\Desktop\API-HW\API_hm_3\API_hm_3\wwwroot\Update.html
+C:\Users\User\Desktop\API-HW\API_hm_3\API_hm_3\wwwroot\Update.js

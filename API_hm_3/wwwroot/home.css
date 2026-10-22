@@ -1,0 +1,21 @@
+﻿body {
+    display: flex;
+    flex-direction:column;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    background-color: red
+}
+
+
+.register {
+    display: flex;
+    flex-direction: column;
+    background-color: blue
+}
+
+#Update{
+    display: none;
+}

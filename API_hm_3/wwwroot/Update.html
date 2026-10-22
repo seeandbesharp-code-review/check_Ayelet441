@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="Update.js" defer></script>
+    <style>
+        body {
+            display: flex;
+            flex-direction:column;
+        }
+        
+
+        button {
+            margin-top: 1vh;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title"></h1>
+    <div>נא מלא את הפרטים שברצונך לעדכן</div>
+    <div id="email"></div>
+    <label for="#password">סיסמא</label>
+    <input type="text" id="password">
+    <label for="#fname">שם פרטי</label>
+    <input type="text" id="fname">
+    <label for="#lname">שם משפחה</label>
+    <input type="text" id="lname">
+    <button onclick="Update()">שמור שינויים</button>
+</body>
+</html>

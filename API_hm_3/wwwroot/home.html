@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="home.css">
+    <style>
+        body {
+            direction: rtl;
+            display: flex;
+        }
+
+        .login,.register {
+            display: flex;
+            flex-direction: column;
+            width:20vw;
+            margin: 1vh;
+            padding:1vh;
+        }
+
+        button{
+            margin-top: 1vh;
+        }
+    </style>
+    <script src="home.js" defer></script>
+</head>
+<body>
+    <div class="login">
+        <label for="#userMail">כתובת מייל</label>
+        <input type="email" id="userMail">
+        <label for="#login_password">סיסמא</label>
+        <input type="password" id="login_password">
+        <button onclick="log()">התחברות</button>
+        <a href="Update.html" id="Update">לעדכון פרטים</a>
+        <button onclick="">משתמש חדש</button>
+    </div>
+    <div class="register">
+        <label for="#mail">שם משתמש</label>
+        <input type="email" id="mail">
+        <label for="#password">סיסמא</label>
+        <input type="password" id="password">
+        <label for="#fname">שם פרטי</label>
+        <input type="text" id="fname">
+        <label for="#lname">שם משפחה</label>
+        <input type="text" id="lname">
+        <button onclick="reg()">רישום</button>
+    </div>
+</body>
+</html>
